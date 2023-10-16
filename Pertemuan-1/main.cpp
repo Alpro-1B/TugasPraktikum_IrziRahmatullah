@@ -2,8 +2,7 @@
 
 using namespace std;
 
-int main()
-{
+int main() {
 
     cout << "Hello Word!" << endl << endl;
 
@@ -14,4 +13,6 @@ int main()
     cout << "Cita cita : Jadi Developer Google" << endl << endl;
     cout << "Motivasi Masuk Informatika : Karena merasa cocok di bidang IT" << endl;
     cout << "-------------------------------------------------------------------" << endl;
+
+    return 0;
 }
