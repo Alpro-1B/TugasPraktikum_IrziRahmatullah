@@ -20,11 +20,14 @@ int main () {
 
 
     // Menukarkan nilai tanpa menggunakan variable
+    firstValue = 10;
+    secondValue = 8;
+    
     firstValue = firstValue + secondValue;
     secondValue = firstValue - secondValue;
     firstValue = firstValue - secondValue;
 
-    cout << "Nilai firstValue dan secondValue setelah ditukarkan tanpa variable akan menjadi posisi semula kembali" << endl;
+    cout << "Nilai firstValue dan secondValue setelah ditukarkan tanpa variable akan menjadi seperti ini" << endl;
     cout <<"Nilai firstValue : " << firstValue << "\nNilai secondValue : " << secondValue << endl<<endl;
 
     return 0;
