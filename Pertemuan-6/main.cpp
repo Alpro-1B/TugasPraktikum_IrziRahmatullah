@@ -39,11 +39,6 @@ int main() {
 };
 
 
-
-
-
-
-
 // Membuat function displayArr untuk menampilkan index dari inputan kita dan menampung 2 parameter.
 void displayValArr(int arr[], int sizeOfArr) {
     // Mendeklarasikan variable nilaiArr dan valArr sebagai acuan pengkondisian.
@@ -99,7 +94,6 @@ void displayMaxArr(int sizeOfArr) {
         };
         cout << "Nilai terbesarnya yaitu : " << maxArr << endl;
     };
-
 
     cout << "Ingin mengetahui nilai index dari nilai array yang anda masukkan tadi?(y/n) : ";
     cin >> showArr;
